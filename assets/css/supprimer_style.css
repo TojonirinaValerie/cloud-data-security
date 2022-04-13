@@ -1,0 +1,30 @@
+.panel_alert_supprimer{
+    display: none;
+}
+.panel_alert_supprimer{
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 25%;
+    top: 10%;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.blur{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.alert_titre{
+    text-align: center;
+    font-size: 24px;
+}
+.alert_btn{
+    text-align: center;
+}

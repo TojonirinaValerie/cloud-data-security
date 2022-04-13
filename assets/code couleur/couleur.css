@@ -1,0 +1,24 @@
+body{
+    background-color: #577DBE;
+}
+.bouton{
+    background-color: #3b5bbb;
+}
+.bouton:hover{
+    background-color: #da5d37;
+}
+.boutton:active{
+    background-color: #924027;
+}
+.page-active{
+    background-color: #ff835e;
+}
+.class-form, .input-text{
+    background-color: #cbdeff;
+}
+.class-form{
+    box-shadow: 5px 5px 50px #3b5bbb;
+}
+.input-text:focus, .input-text:valid{
+    border-color: #3b5bbb;
+}

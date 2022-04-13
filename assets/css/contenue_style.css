@@ -1,0 +1,42 @@
+table{
+    width: 100%;
+    overflow-x: scroll;
+}
+.thead{
+    background-color: #DBD8D8;
+    font-weight: bold;
+}
+.type-icone{
+    height: 30px;
+}
+tr{
+    border-bottom: solid 1px #CCCCCC;
+}
+td{
+    border-right: solid 1px #CCCCCC;
+    padding: 1px 5px;
+}
+tr:active{
+    background-color: rgb(64, 140, 254);;
+}
+.select{
+    width: 30px;
+}
+.list-fichier{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .colonne1, .colonne2, .colonne3{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    .colonne2, .colonne3{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,21 @@
+.panel_alert_succes{
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+    top: 10%;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+}
+.blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}

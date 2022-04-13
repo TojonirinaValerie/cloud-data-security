@@ -1,0 +1,43 @@
+.panel_alert_upload{
+    display: none;
+}
+.blur{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.panel_alert_upload{
+    display: none;
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 25%;
+    top: 10%;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: left;
+}
+.alert_titre{
+    margin: 10px;
+    font-size: 24px;
+    text-align: left;
+}
+#input_file_label{
+    width: 100%;
+    position: relative;
+    left: 0;
+    border: solid #CCCCCC 2px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+#liste_sup{
+    margin: 10px;
+    padding-left: 20px;
+}

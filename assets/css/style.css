@@ -1,0 +1,87 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.block-repertoire{
+    background-color: #CBDEFF;
+    margin: 0;
+    padding: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+}
+.block-repertoire ul{
+    padding-left: 20px;
+}
+.block-repertoire li{
+    list-style: none;
+}
+
+.section-head{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.chemin{
+    margin-left: 10px;
+    padding: 0 10px;
+    background-color: #EEEEEE;
+    width: 90%;
+    line-height: 30px;
+    border-radius: 8px;
+    overflow-wrap: break-word;
+}
+
+
+/*Section menu*/
+.nav-icone{
+    height: 20px;
+}
+
+.contenair{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+.s-left{
+    padding: 0;
+    min-width: 180px;
+    height: 100%;
+}
+.s-rigth{
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .section{
+        flex-direction: column;
+    }
+    .s-left{
+        width: 100%;
+    }
+    .block-repertoire{
+        width: 100%;
+    }
+    .s-rigth{
+        height: 100%;
+    }
+}

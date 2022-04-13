@@ -1,0 +1,16 @@
+.boutton{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #3b5bbb;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.boutton:hover{
+    background-color: #da5d37;
+}
+.boutton:active{
+    background-color: #924027;
+}

@@ -1,0 +1,46 @@
+
+#file_ouvert{
+    width: 100%;
+}
+
+.section-ouvrir{
+}
+
+button{
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#telecharger{
+    background-color: #40bb49;
+    color: #fff;
+}
+#btn_down{
+    color: #fff;
+    text-decoration: none;
+}
+
+#btn_down:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+#renomer{
+    background-color: #4099af;
+}
+
+#supprimer{
+    background-color: #d14747;
+}
+
+.fiche{
+    margin: 0;
+    padding: 0;
+}
+#fiche_nom{
+    font-size: 28px;
+}
+

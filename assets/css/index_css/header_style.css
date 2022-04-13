@@ -1,0 +1,59 @@
+.logo{
+    margin-left: 10px;
+}
+.navbar-menu{
+    text-align: right;
+    width: 100%;
+    margin-top: 30px;
+}
+.navbar-menu ul{
+    margin-right: 10px;
+}
+.navbar-menu ul li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.cdslogo{
+    height: 100px;
+}
+
+.rs{
+    padding: 10px;
+}
+.image-lien{
+    width: 25px;
+}
+.lst-menu{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.lst-menu:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #da5d37;
+}
+.page-active{
+    background-color: #ff835e;
+}
+
+/*Accueil.html*/
+.header_accueil{
+    background-color: #577DBE;
+}
+.cdslogo_accueil{
+    height: 60px;
+}
+.navbar-header{
+    font-size: 18px;
+    border: solid 1px #000;
+    text-align: right;
+    /*margin-right: 10px;*/
+}
+.navbar-header ul li{
+    border: solid 1px #000;
+    display: inline-block;
+    margin: 10px 5px;
+}

@@ -1,0 +1,185 @@
+body{
+	margin: 0px;
+	padding: 0px;	
+/*	border: 0px;*/
+	overflow: hidden;
+	width: 100%;
+	height: 748px;
+	background-color: #EBEBEB;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4", Arial;
+	color: #5E6A71;
+	font-size: 21px;
+	border: 1px solid #808080;
+}
+
+.DivTitle	{
+	width: 100%; 
+	height: 119px; 
+	border-bottom: 1px solid #AAAAAA;  	
+}
+
+.DivIconOuter {
+	float:left; 
+	width: 120px;	
+	height: 120px; 	
+	font-size: 108px; /*IE*/ 
+	line-height : 150px; /*Chrome*/
+	margin-left: 15px;
+}
+
+.DivIconOuter span {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	width: 78px; 
+	height: 78px; 
+	background-image: url(Images/portal_b.png); 
+	background-repeat: no-repeat; 	
+	/*vertical-align : middle;*/
+
+}
+
+.DivTextAreaTitle {
+	color: black; 
+	font-size: 27px; 
+	font-weight: bold; 
+	margin-top: 30px;
+}
+.DivTextAreaContent	{
+	color: black; 
+ }
+
+.buttonSytle {
+	width: 150px; 
+	float: right; 
+	margin-top: 30px; 
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+#ProductDivTitle{}
+#ProductDivIconOuter{}
+#ProductDivIcon{}
+#ProductDivTextAreaTitle{}
+#ProductDivTextAreaContent{}
+
+#ProductDivList{
+	width: 100%;
+	height: 254px;
+	border-bottom: 1px solid #AAAAAA; 
+	overflow: auto;	
+}
+
+#ProductDivList_Table{
+	width: 100%;
+	margin: 0px; 
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+#ProductDivList_Table th{
+	padding: 3px;
+	background-color: #555555;
+	vertical-align: middle;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	border-left: 1px solid #AAAAAA;
+}
+/*
+#ProductDivList_Table th + th {
+    border-left: 1px solid black;
+}*/
+/*
+.ProductDivList_Item{
+	background-color: #E5EBEC;
+}*/
+
+.ProductDivList_TableContent{
+	background-color: #e5ebd8;	
+}
+
+.TableTd_WaitIcon{
+	width: 36px; height: 36px;
+	background-image: url(Images/img_waiting_b.gif);
+	background-repeat: no-repeat;	
+}
+
+.TableId_ProductIcon{
+	width: 48px; height: 48px;	
+	background-repeat: no-repeat;			
+	vertical-align: middle;
+}
+
+.TableTd_CenterAlign{
+	text-align: center;
+}
+.TableTd{
+	height: 60px;
+	line-height: 36px;
+	padding: 0 0 0 8px;
+	color: black;
+	font-size: 20px;
+	vertical-align: middle;
+	border-bottom: 1px solid #AAAAAA; 	
+}
+
+#ProductDivAbout{
+	width: 100%;	
+	font-size: 18px;
+	color: black;
+	margin: 0px 0 0 23px;
+	height: 30px;
+	line-height: 30px;
+}
+.TableTd_containWaitIcon{}
+
+#ProductDivDescription{
+	margin: 0px 0 0 23px;
+	width: 100%;
+	height: 225px;
+	overflow-y: scroll;		
+	color: black; 
+}
+#ProductDivButtom{	
+	border-top: 1px solid #AAAAAA; 
+	width: 100%;
+	height: 75px;
+	
+}
+
+#ProgressArea{
+	float: left;	
+	margin-left: 30px;
+	margin-top: 40px;	
+	font-size: 18px;
+	color: black;
+}
+
+#ProgressText{
+	margin-top: 15px;
+	width: 30%;	
+}
+#progressbar{
+	width: 80%;
+	height: 15px;	
+}
+
+
+/*EULA*//*
+#EulaDivTextArea{
+	width: 100%;
+	height: 340px;
+	overflow-y: scroll;	
+	border-bottom: 1px solid #AAAAAA; 	
+}*/
+
+#EulaHtml{
+	width: 100%;
+	height: 510px;	
+	border-bottom: 1px solid #AAAAAA; 	
+}
+#AutoUpdateCheckDiv{
+	margin-top: 30px; 
+	margin-left: 30px;	
+}

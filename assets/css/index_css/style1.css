@@ -1,0 +1,28 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin: 0 15px;
+    background-color: #577DBE;
+    background-image: url("../../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header, section, footer{
+    padding: 0 7%;
+}
+
+
+#erreur_pseudo, #erreur_mdp, #erreur_cmdp, #erreur_mail{
+    position: relative;
+    
+}
+.message-er{
+    position: absolute;
+    top: -100px;
+    left: 200px;
+    z-index: 1;
+    width: 200px;
+    background-color: #ddd;
+    border: #999 solid 1px;
+    border-radius: 5px;
+}
